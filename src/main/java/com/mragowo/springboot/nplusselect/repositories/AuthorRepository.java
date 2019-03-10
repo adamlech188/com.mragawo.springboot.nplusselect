@@ -9,5 +9,5 @@ import com.mragowo.springboot.nplusselect.entities.Author;
 
 public interface AuthorRepository extends CrudRepository<Author, Long> {
 
-	public List<Author> findAuthorByLastName(@Param("lastName") String lastName); 
+	public List<Author> findAuthorByLastName(@Param("lastName") String lastName);
 }
